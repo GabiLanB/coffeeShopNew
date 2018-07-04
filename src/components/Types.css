@@ -1,0 +1,33 @@
+
+
+#types .col-12.col-sm-4{
+    color: #ffffff;
+    overflow: hidden;
+    padding: 0;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.9)
+}
+#types .img-fluid{
+    transition: all .5s ease-in-out;
+    filter: blur(1px);
+}
+#types .img-fluid:hover{ 
+    transform: scale(1.2);
+    filter: blur(0px);
+}
+#types .col-12.col-sm-4 h2:hover{
+    color: #dc3545;
+    transition: all .5s ease-in-out;
+    text-shadow: 1px 1px #ffffff;
+    cursor: pointer;
+}
+#types .col-12.col-sm-4 h2 {
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 999;
+}

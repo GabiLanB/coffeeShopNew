@@ -1,0 +1,40 @@
+div.react-parallax{
+    position: relative;
+    height: 80vh;
+    min-height: 100%;
+}
+img.react-parallax-bgimage{
+    height: 80% !important;
+    padding-left: 50%; 
+}
+div.react-parallax-content{
+    position: absolute;
+    height: 100%;
+}
+
+div.react-parallax-content > div.content-text {
+    position: absolute;
+    padding: 50px;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    transform: translate(0%, -50%);
+}
+div.react-parallax-content > div.content-text > div {
+    color: white;
+    padding: 10px;
+}
+div.react-parallax-content > div.content-text > div{
+    text-align: left;
+}
+div.react-parallax-content > div.content-text > div h1, h2, h3, p {
+    color: #423930;
+    padding-bottom: 20px;
+}
+
+@media only screen and (min-width: 600px) {
+    div.react-parallax-content > div.content-text {
+        width: 60%;
+        left: 0;
+    }
+}
