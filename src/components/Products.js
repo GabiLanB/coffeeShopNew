@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, CardText, Button } from 'reactstrap';
+import { Row, Col, Card, CardImg, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
 import './Products.css';
 
 class Products extends Component {

@@ -32,7 +32,7 @@ const content = [
         render() {
             return(
                 <div>
-                   <Slider className="slider-wrapper" id="home" autoplay={3000}>
+                   <Slider className="slider-wrapper" id="home" autoplay={2000}>
                         {content.map((item, index) => (
                             <div
                                 key={index}
